@@ -1,0 +1,6 @@
+productName=MergeSword
+companyName=Burnicle
+bundleIdentifier=com.burnicle.mergesword
+namespaceRoot=MergeSword
+launchSceneName=Launcher
+appliedAt=2026-11-08 12:27:23

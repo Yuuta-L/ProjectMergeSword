@@ -1,0 +1,7 @@
+﻿#	Music表				
+#	ID		AssetName	Volume	
+#	int		string$	float	
+#	音乐编号	策划备注	资源名称	音量（0~1）	
+	1	主界面音乐	bg_main	1	
+	2	战斗音乐	bg_game	1	
+	3	boss战	bg_boss_battle	1	

@@ -1,0 +1,10 @@
+﻿#	界面可解锁项表						
+#	Id		ItemName	IconAssetName	LocalizationKey	UnlockType	UnlockValue
+#	int		string$	string	string	string	float[]
+#	可解锁项编号	策划备注	解锁项名称	显示图标资源名	显示功能名	解锁方式	解锁参数
+	1001	主界面商店界面	ShopPanel	UI/UISprites/Main/MainForm/ItemIcon_Shop	UI.BottomMenu.Shop	PassLevel	2
+	1002	主界面装备界面(从关卡奖励中获得装备后解锁)	GearPanel	UI/UISprites/Main/MainForm/ItemIcon_Gear	UI.BottomMenu.Gear	Custom	
+	1004	冒险界面	AdventurePanel	UI/UISprites/Main/MainForm/ItemIcon_Adventure	UI.BottomMenu.Adventure	PassLevel	10
+	2003	过关奖励	PassReward	UI/UISprites/Main/MainForm/ItemIcon_Chest_Gold	UI.PassReward.Title	PassLevel	1
+	2005	成长界面	GrowUp	UI/UISprites/GrowUp/growup_icon_power	UI.Common.Grow	PassLevel	3
+	2006	扫荡界面	Sweep	UI/UISprites/Main/MainForm/function_icon_sweep	UI.Sweep.EntryName	PassLevel	8

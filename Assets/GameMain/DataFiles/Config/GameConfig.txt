@@ -1,0 +1,4 @@
+﻿#	默认游戏配置		
+#	Key	备注	Value
+	DefaultEnergyMax	能量默认最大值	40
+	RecoverTimePerEnergy	每点能量回复时间(s)	900

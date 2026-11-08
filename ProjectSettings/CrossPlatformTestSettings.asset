@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565becedbf15ef64dad6e5fd3c66c939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HasVideoAd: 1
+  VideoAdResult: 1
+  HasInterstitialAd: 1
+  InterstitialAdResult: 1
+  HasBannerAd: 1
+  HasGridAd: 1
+  HasCustomAd: 1
+  PaySuccess: 1
+  PayDelayReturn: 0
+  PayDelayReturnTime: 3
+  RequestProductInfoSuccess: 1
+  RequestProductInfoReturnDelay: 1
+  RestoreCompletePayInfoCallResult: 1
+  RestoreCompletePayInfoDelayTime: 1
+  UserId: 1
+  CanJumpToReview: 1
+  IsSupportSidebar: 1
+  IsEnterFromSidebar: 0
+  NavigateToSidebarResult: 1
+  IsSupportGameClub: 1
+  IsSupportShortcut: 1
+  CreateShortcutSuccess: 1
+  IsShortcutAdded: 1
+  IsEnterFromShortcut: 0
+  CanRecord: 0
+  ShareRecordResult: 1

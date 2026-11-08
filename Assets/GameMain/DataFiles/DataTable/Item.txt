@@ -1,0 +1,7 @@
+﻿#	Item表			i18n	i18n	
+#	ID		Name	ItemNameKey	ItemDesKey	IconAssetName
+#	int		string$	string	string	string
+#		备注	物品名	物品多语言key	物品描述key	图标资源名
+	1001	金币	Coin	Item.Name.Coin	Item.Des.Coin	item_icon_coin
+	1002	水晶	Crystal	Item.Name.Crystal	Item.Des.Crystal	item_icon_crystal
+	1003	体力	Energy	Item.Name.Energy	Item.Des.Energy	item_icon_energy

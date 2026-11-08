@@ -1,0 +1,4 @@
+[submodule "Assets/BurnicleFramework"]
+	path = Assets/BurnicleFramework
+	url = https://github.com/Yuuta-L/BurnicleFramework.git
+	branch = main

@@ -1,0 +1,47 @@
+﻿#	Sound表					
+#	ID		AssetName	Priority	Loop	Volume
+#	int		string$	int	bool	float
+#		策划备注	资源名称	优先级（默认0，128最高，-128最低）	是否循环	音量（0~1）
+	10001	关卡外按键触发音	common_click	0	False	1
+	10002	玩家获得任意物品时触发	common_get_reward	0	False	1
+	10003	短促的嘟	common_short_du	0	False	1
+	10004		common_short_bubble	0	False	1
+	10005		common_coin	0	False	0.85
+	10006		common_gudu	0	False	1
+	10007		common_efx_shining	0	False	1
+	11001	钝器击打（长）	battle_hit_bang	0	False	0.6
+	11002	砍（流血声）	battle_hit_bite	0	False	0.8
+	11003	破空声	battle_hit_breakair	0	False	0.8
+	11004	砍	battle_hit_slash	0	False	0.8
+	11005		battle_hit_ice	0	False	0.8
+	11006	钝器击打（短促）	battle_hit_shortbang	0	False	0.8
+	11007	扔东西的声音（长）	battle_hit_wave	0	False	0.8
+	11008	扔东西的声音（短促）	battle_hit_xiu	0	False	0.8
+	11009		battle_hit_fire	0	False	0.8
+	11010		battle_hit_burst	0	False	0.8
+	11011		battle_hit_lightning	0	False	0.8
+	11012		battle_hit_punch	0	False	0.8
+	11013		battle_hit_star	0	False	0.8
+	11014		battle_hit_mystic	0	False	0.8
+	11015		battle_efx_heal	0	False	1
+	11016		battle_shoot_flash	0	False	1
+	11017		battle_shoot_mystic	0	False	1
+	11018		battle_shoot_fireball	0	False	1
+	11019		battle_shoot_throw	0	False	1
+	11020		battle_hit_stoneshock	0	False	1
+	11021		battle_hit_lava	0	False	1
+	11022		battle_efx_frozen	0	False	1
+	12001	主界面解锁新系统	lobby_unlock_newsystem	0	False	0.8
+	12002	装备升级的声音	lobby_gear_upgrade	0	False	1
+	12003		labby_manor_mining	0	False	1
+	13001	玩家行走声	game_player_walk	0	True	1
+	13002	上锁房间打开时	game_door_unlock	0	False	1
+	13003	开宝箱的声音	game_openchest	0	False	0.7
+	13004	显示技能时	game_skill_show	0	False	1
+	13005	技能选中时	game_skill_choice	0	False	1
+	13006	掉落钥匙的声音（叮铃)	game_drop_key	0	False	1
+	13007	警告声	game_battle_warning	0	True	1
+	13008		game_result_victory	0	False	1
+	13009		game_result_defeat	0	False	1
+	13010		game_drop_potion	0	False	1
+	13011		game_efx_dong	0	False	1

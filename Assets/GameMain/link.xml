@@ -1,0 +1,23 @@
+<linker>
+	<!-- Low 裁剪模式下 Newtonsoft 不整体 preserve=all：否则 XmlNodeConverter/DataSet/DataTable/Bson 等未用功能会把
+	     System.Xml / System.Data / Mono.Security 整棵 BCL 子树拖进 wasm。
+	     实际用到的 JsonConvert/JObject/JsonSerializer 等均为静态引用，linker 自动保留；
+	     反射依赖的自定义 converter 在下方逐类型 preserve。若有新的反射用法报 MissingMethod，再补具体类型，勿改回 all。 -->
+	<!-- Newtonsoft.Json.UnityConverters 未被运行时引用，不保留 -->
+	<!-- JSON 序列化（Newtonsoft）的字段不要用 HashSet<T>/ISet<T> 等非 IList 泛型集合：
+	     它们会走 JsonArrayContract 的包装器分支，反射取 CollectionWrapper<T> 的构造；
+	     该泛型实例化只被 MakeGenericType 引用、IL2CPP 构建时不存在，GetConstructor 返回 null →
+	     “Value cannot be null. Parameter name: method”。用 List<T>（实现 IList）、Dictionary<K,V>（实现 IDictionary）即可避开。 -->
+
+	<!-- 自定义 JsonConverter -->
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="EndlessAbyss.ForbiddenCounterDicConverter" preserve="all"/>
+		<type fullname="EndlessAbyss.TierItemDicConverter" preserve="all"/>
+		<type fullname="EndlessAbyss.LevelItemDicConverter" preserve="all"/>
+	</assembly>
+
+	<!-- IL2CPP 下 Newtonsoft.Json 需要的方法 -->
+	<assembly fullname="netstandard">
+		<type fullname="System.ComponentModel.*" preserve="all"/>
+	</assembly>
+</linker>

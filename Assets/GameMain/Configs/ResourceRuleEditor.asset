@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b19823f5c54ea748b0a3473eb1361b6, type: 3}
+  m_Name: ResourceRuleEditor
+  m_EditorClassIdentifier: 
+  rules:
+  - valid: 1
+    name: Animations
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Animations
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Audio
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Audio
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: DataFiles
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/DataFiles
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Fonts
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Fonts
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Materials
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Materials
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Prefabs
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Prefabs
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Scenes
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Scenes
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Sprites
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Sprites
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: UI
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/UI
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Prefabs_Common
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Prefabs/Common
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Effect
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Prefabs/Effect
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.*'
+  - valid: 1
+    name: Shaders
+    variant: 
+    fileSystem: 
+    groups: 
+    assetsDirectoryPath: Assets/GameMain/Shaders
+    loadType: 2
+    packed: 0
+    filterType: 0
+    searchPatterns: '*.shader;*.shadergraph'

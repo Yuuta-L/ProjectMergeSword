@@ -1,0 +1,14 @@
+﻿#	界面配置表								
+#	Id		AssetName	UIGroupName	Depth	AllowMultiInstance	PauseCoveredUIForm	ShowScreenDim	AllowEscapeClose
+#	int		string$	string	int	bool	bool	bool	bool
+#	界面编号	策划备注	界面名称	界面组名称	界面位于组中深度	是否允许多个界面实例	是否暂停被其覆盖的界面	是否显示屏幕遮罩	是否允许返回关闭
+	1	加载页面	LoadingForm	Top	1	False	True	False	False
+	1001	主界面	MainForm	Default	0	False	True	False	False
+	1002	设置	SettingForm	Popup	0	False	True	True	False
+	1003	主界面资源栏	MainTitleForm	Title	0	False	False	False	False
+	1004	游戏界面	GameForm	Default	0	False	True	False	False
+	1005	游戏结果界面	GameResultForm	Popup	0	False	False	True	False
+	1006	获取奖励界面	AcquireRewardForm	Popup	0	False	True	True	False
+	1007	弹出框	DialogForm	Top	2	False	True	True	False
+	1008	游戏暂停界面	PauseForm	Popup	1	False	True	True	False
+	1009	解锁界面	UnlockForm	Popup	0	False	False	True	False

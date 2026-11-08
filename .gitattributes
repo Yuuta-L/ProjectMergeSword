@@ -1,0 +1,32 @@
+# Unity 资产按 YAML 处理，方便 diff 与合并
+*.unity      text  merge=unityyamlmerge
+*.prefab     text  merge=unityyamlmerge
+*.asset      text  merge=unityyamlmerge
+*.mat        text  merge=unityyamlmerge
+*.anim       text  merge=unityyamlmerge
+*.controller text  merge=unityyamlmerge
+*.overridecontroller text merge=unityyamlmerge
+*.meta       text  merge=unityyamlmerge
+*.mask       text  merge=unityyamlmerge
+
+# 代码统一 UTF-8（BOM）+ CRLF，diff 按语言高亮
+*.cs         text  eol=crlf  diff=csharp
+*.shader     text  eol=crlf  diff=csharp
+*.txt        text  eol=crlf
+*.md         text  eol=crlf
+
+# 二进制资产不做行尾转换
+*.png        binary
+*.jpg        binary
+*.jpeg       binary
+*.psd        binary
+*.tga        binary
+*.wav        binary
+*.mp3        binary
+*.ogg        binary
+*.ttf        binary
+*.otf        binary
+*.dll        binary
+*.so         binary
+*.a          binary
+*.unitypackage binary
